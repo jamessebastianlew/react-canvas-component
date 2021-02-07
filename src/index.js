@@ -9,5 +9,4 @@ import Grid, { pathFinder } from './classes/Grid/Grid';
 const canvasWidth = document.body.clientWidth;
 const canvasHeight = document.body.clientHeight;
 
-console.log(document.body.canvasWidth);
-ReactDOM.render(<Canvas draw={draw} width={canvasWidth} height={canvasHeight} />, document.getElementById('root'));
+ReactDOM.render(<Canvas draw={draw} width={canvasWidth} height={canvasHeight}/>, document.getElementById('root'));
